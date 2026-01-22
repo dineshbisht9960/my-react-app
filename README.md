@@ -1,2 +1,2 @@
 # my-react-app
-this is a simple react project 
+this is a simple scanner project
