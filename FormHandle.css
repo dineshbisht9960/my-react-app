@@ -1,0 +1,224 @@
+body {
+  background: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+}
+
+/* main container*/
+.container {
+  max-width: 850px;
+  background: #fff;
+  display: flex;
+  margin: 50px auto;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  
+}
+
+/* left side*/
+.left-panel {
+  width: 45%;
+  background: #ffc400;
+  padding: 50px 30px;
+  text-align: center;
+  
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  background: #fff;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  background-image: url("C:\Users\HP\mr-proptek\src\assets\Screenshot 2025-11-23 204325");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.left-panel h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left-panel p {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/*Right Side */
+.right-panel {
+  width: 55%;
+  padding: 40px 50px;
+}
+
+/*  FORM GROUP  */
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group .input{
+width: 350px;
+}
+label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  display: block;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  background: #f6f6f6;
+  font-size: 14px;
+}
+
+.phone-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-row select {
+  width: 120px;
+}
+/* RADIO BUTTONS IN ONE LINE */
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  
+}
+
+.radio-group label {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 15px;
+}
+
+/* ACTION BUTTONS  */
+.actions {
+  gap: 15px;
+  margin-top: 25px;
+}
+.actions button {
+    width: 100%;
+    height: 40px;
+}
+.actions p{
+    margin-right:23px;
+}
+.login-btn{
+    display: flex;
+}
+
+.cancel {
+  background: #eee;
+  border: none;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 20px;
+  width: 300px;
+
+}
+
+.save {
+  background: #6ef5cf;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*  LOGIN FORM LINKS */
+.login-input{
+    width: 470px;
+}
+.forgot {
+  display: block;
+  margin: 20px 0px;
+  font-size: 13px;
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.forgot h3{
+  color: aqua;
+}
+.forgot-form button{
+  width: 100%;
+}
+.time-row{
+  display: 'flex';
+  
+}
+.time-row input{
+  width: 40%;
+  margin-right:  6px;
+  margin-bottom: 20px;
+}
+.time-row textarea{
+  width: 98%;
+}
+.time-row button {
+  height: 40px;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  background: #6ef5cf;
+}
+.singup-btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.singup-btn button{
+    height: 40px;
+    font-size: 20px;    
+    width: 300px;   
+    margin-left: 10px,
+}
+
+.save{
+  width: 100%;
+}
+.cancel{
+  width: 260px;
+  
+}
+.save-btn{
+  width: 240px;
+  background: #6ef5cf;
+  border: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 20px;
+   height: 40px;
+}
+.reset-input{
+  width: 500px;
+}
+.otp-row{
+  display: flex;
+  width: 245px;
+  gap:10px;
+  margin-bottom: 25px;
+} 
